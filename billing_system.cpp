@@ -113,7 +113,7 @@ while(File>>id>>name>>price>>tax)
         nname[c]=name;
         pricen[c]=price;
         taxx[c]=tax;
-        finalprice[c]=qqty[c]*(price+((qqty[c]*tax*price)/100));
+        finalprice[c]=qqty[c]*(price+((tax*price)/100));
          cout<<"\nproduct successfully added\n " ;
          break;
        }
